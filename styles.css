@@ -11,6 +11,7 @@ body {
   height: 100%;
 }
 body {
+  background-color: hsl(204, 43%, 93%);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -40,4 +41,70 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+}
+.main-layout {
+  /* background-color: black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100%; */
+  font-family: "Karla", sans-serif;
+}
+.grid-container {
+  max-width: 20rem;
+  height: 100%;
+  margin: 5rem 0;
+}
+.intro,
+.subscribe,
+.pitch {
+  padding: 1.5rem;
+}
+.intro {
+  background-color: white;
+}
+.subtitle {
+  color: hsl(71, 73%, 54%);
+}
+.intro-body {
+  color: hsl(218, 22%, 67%);
+}
+.intro .heading {
+  color: hsl(179, 62%, 43%);
+}
+.subscribe {
+  background-color: hsl(179, 62%, 43%);
+}
+.dollar-amount{
+  font-size: 2rem;
+  margin-right: 10px;
+}
+button{
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    width: 100%;
+    padding: .8rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+    box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.1)
+
+}
+.pitch {
+  background-color: hsl(179, 47%, 52%);
+}
+ul{
+  list-style: none;
+  padding-inline-start: 0;
+}
+.subscribe,
+.pitch,
+button {
+  color: white;
+}
+.heading,
+.subtitle, button, .dollar-amount {
+  font-weight: 700;
+}
+.heading, .subtitle{
+    margin-bottom: 1rem;
 }
