@@ -59,6 +59,8 @@ h6 {
   padding: 1.5rem;
 }
 .intro {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   background-color: white;
 }
 .subtitle {
@@ -89,6 +91,8 @@ button{
 }
 .pitch {
   background-color: hsl(179, 47%, 52%);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 ul{
   list-style: none;
