@@ -43,7 +43,6 @@ h6 {
   isolation: isolate;
 }
 .main-layout {
-  /* background-color: black; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,3 +107,4 @@ button {
 .heading, .subtitle{
     margin-bottom: 1rem;
 }
+
